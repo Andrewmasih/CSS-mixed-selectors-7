@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS mixed selectors</title>
+    <style>
+      /* Try to remove code block by the code block
+      and see what happens. Try to figure out 
+      why are some styles applied and not the others. */ 
+      
+      /* 7. The last one to be applied */
+      
+
+      /* 2. This will apply after id + class combination */
+      
+
+      /* 6. It comes after the blueBackground */
+      
+
+      /* 1. id + class always beats id. More specific than just ID. */
+      
+
+      /* 3. beats every selector without ID */
+      
+
+       /* 5. More specific than just having one class */
+      
+
+       /* 4. Selecting more parents is more specific
+       than selecting all the classes from the same element*/ 
+      
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="blueBackground box" id="main"></div>
+      </div>
+    </div>
+  </body>
+</html>
